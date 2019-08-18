@@ -1,0 +1,14 @@
+[package]
+name = "rust-rdkafka"
+version = "0.1.0"
+authors = ["Michael van Niekerk <mvniekerk@chazaqdev.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[dependencies.rdkafka]
+git = "https://github.com/fede1024/rust-rdkafka"
+rev = "6a3da62adad6e6116e48ff12093fc7f6311241e4"
+
